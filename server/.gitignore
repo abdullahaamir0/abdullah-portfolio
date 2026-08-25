@@ -1,0 +1,9 @@
+node_modules
+.env
+.env.local
+*.local
+.DS_Store
+
+# Keep the folder but ignore local message data if you don't want it committed.
+# Comment this out if you'd rather version-control your messages.
+data/messages.json
