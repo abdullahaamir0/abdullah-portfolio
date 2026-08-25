@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { profile } from '../data/content.js'
 import Reveal from './Reveal.jsx'
 
-const API_URL = (import.meta.env && import.meta.env.VITE_API_URL) || 'http://localhost:5000'
+const API_URL = (import.meta.env && import.meta.env.VITE_API_URL) || 'https://abdullah-portfolio-serverr.vercel.app'
 
 const EMPTY_FORM = { name: '', email: '', message: '', company: '' } // `company` is the honeypot
 
