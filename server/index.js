@@ -31,7 +31,11 @@ app.use('/api', (req, res) => {
   res.status(404).json({ success: false, error: 'Not found.' })
 })
 
-app.listen(PORT, () => {
-  console.log(`Portfolio API running on http://localhost:${PORT}`)
-  console.log(`Accepting requests from ${CLIENT_URL}`)
-})
+if (process.env.NODE_ENV !== 'production') {
+  app.listen(PORT, () => {
+    console.log(`Portfolio API running on http://localhost:${PORT}`)
+    console.log(`Accepting requests from ${CLIENT_URL}`)
+  })
+}
+
+module.exports = app
