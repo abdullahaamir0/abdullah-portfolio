@@ -1,7 +1,7 @@
 export const profile = {
   name: 'Muhammad Abdullah Amir',
   shortName: 'Abdullah Amir',
-  initials: 'MAA',
+  initials: 'ABDULLAH',
   role: 'Web Developer',
   location: 'Lahore, Pakistan',
   email: 'abdullahaamir924@gmail.com',
@@ -14,7 +14,7 @@ export const profile = {
 export const roles = ['Web Developer', 'React Enthusiast', 'UI Tinkerer', 'BSCS Student']
 
 export const heroStats = [
-  { value: '5+', label: 'WEBSITES BUILT' },
+  { value: '3+', label: 'WEBSITES BUILT' },
   { value: '2026', label: 'BSCS — UMT LAHORE' },
   { value: '100%', label: 'FRONT-END FOCUSED' },
 ]
@@ -43,11 +43,11 @@ export const timeline = [
 ]
 
 export const skills = [
-  { name: 'HTML', pct: 90 },
-  { name: 'CSS', pct: 88 },
-  { name: 'JavaScript', pct: 78 },
-  { name: 'React.js', pct: 55 },
-  { name: 'Node.js', pct: 48 },
+  { name: 'HTML', pct: 95 },
+  { name: 'CSS', pct: 92 },
+  { name: 'JavaScript', pct: 81 },
+  { name: 'React.js', pct: 78 },
+  { name: 'Node.js', pct: 72 },
   { name: 'Git & GitHub', pct: 60 },
 ]
 
@@ -58,19 +58,19 @@ export const projects = [
   {
     num: '01',
     title: 'NUSH — Smash Burger & Wings',
-    description: 'A restaurant ordering site for a smash-burger spot in Iqbal Town, Lahore. Hero section with live open/closed status and ratings, built around a menu of double-smashed patties, hand-tossed Korean wings, and a signature Sando.',
-    tags: ['HTML', 'CSS', 'JavaScript'],
+    description: 'A modern restaurant website concept created as a sample portfolio project for a smash-burger restaurant in Iqbal Town, Lahore. Designed to showcase a responsive menu, restaurant information, ratings, and an engaging ordering experience. This project is for demonstration purposes only and is not currently available for public ordering.',
+    tags: ['HTML', 'CSS', 'JavaScript','React','Node.Js'],
     live: '#',
     source: '#',
   },
   {
     num: '02',
     title: 'Ali Baba Food Point',
-    description: 'A fast-food restaurant site for a shawarma spot in Allama Iqbal Town, Lahore. Bold hero with rating, price range and live hours, plus a one-tap call-to-order button for customers who\u2019d rather just call.',
-    tags: ['HTML', 'CSS', 'JavaScript'],
+    description: 'A modern fast-food restaurant website concept created as a sample portfolio project for a shawarma restaurant in Allama Iqbal Town, Lahore. Designed to showcase a bold hero section, restaurant ratings, price range, opening hours, and a convenient call-to-order experience. This project is for demonstration purposes only and is not currently available for public ordering.',
+    tags: ['HTML', 'CSS', 'JavaScript','React','Node.Js'],
     live: '#',
     source: '#',
-  },
+  }
 ]
 
 export const navItems = [
